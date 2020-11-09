@@ -1,12 +1,13 @@
 #navbar ul { 
-    margin: 10px; 
-    margin-left:20px;
     float:center;
     padding: 5px; 
     list-style-type: none; 
     text-align: center; 
     background-color: #6d8ac9; 
-    } 
+    font-size: 16px;
+    opacity: 0.6;
+    transition: 0.3s;
+    }
     
     #navbar ul li {  
         display: inline; 
@@ -14,12 +15,17 @@
     
     #navbar ul li a { 
         text-decoration: none; 
-        padding:5px; 
+        padding:5px;
+        margin:20px;
         color: #b8aeae; 
         background-color: #6d8ac9; 
         } 
     
     #navbar ul li a:hover { 
-        color: #000; 
-        background-color: #fff; 
+        color: rgb(31, 30, 30); 
+        background-color:  #92ace4; 
+        opacity:1;
         } 
+    #navbar-right{
+        margin:100px;
+    }
